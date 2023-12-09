@@ -26,7 +26,9 @@ contract Bridge is Admin {
             token.ownerMint(msg.sender, _amount);
             emit TokenReceived(_to, _token, _amount);
         }
-        revert("Token isn't bridgeable :'(");
+        else{
+            revert("Token isn't bridgeable :'(");
+        }
     }
 
     function bridgeSent(address _token, uint256 _amount, address _to) external {
@@ -35,7 +37,9 @@ contract Bridge is Admin {
             token.ownerBurn(msg.sender, _amount);
             emit TokenSent(_to, _token, _amount);
         }
-        revert("Token isn't bridgeable :'(");
+        else{
+            revert("Token isn't bridgeable :'(");
+        }
     }
 
     function addToken(address _token) external {
