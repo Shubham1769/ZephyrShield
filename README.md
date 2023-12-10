@@ -1,5 +1,17 @@
-# ZephyrShield
+## ZephyrShield
 Where Privacy Meets Stability
+
+# Overview
+ZephyrShield is an innovative project that enhances the privacy and security of the Fathom Stablecoin by combining a bridge locking mechanism and a zero-knowledge proof privacy layer. By implementing per-to-per encrypted transactions, ZephyrShield ensures that user financial activities remain confidential while leveraging the stability of Fathom Stablecoin.
+
+# Project Highlights
+1. Fathom Stablecoin Integration: ZephyrShield builds upon the reliability of Fathom Stablecoin, a trusted decentralized stablecoin on the XDC Network.
+
+2. Bridge Locking Mechanism: The project incorporates a bridge locking mechanism to securely lock Fathom Stablecoins, creating a bridge between XDC network and privacy layer.
+
+3. Zero-Knowledge Proof Privacy Layer: ZephyrShield introduces a cutting-edge zero-knowledge proof privacy layer to enable per-to-per encrypted transactions, addressing the inherent privacy and security challenges associated with traditional stablecoins.
+
+
 
 # Work Flow
 ![Brown Pastel Flowchart Diagram Graph Template (1)](https://github.com/Shubham1769/ZephyrShield/assets/100408547/73b98f52-de82-4514-bb9c-5696b987a758)
