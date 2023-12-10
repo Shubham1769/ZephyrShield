@@ -1,7 +1,7 @@
 //SPDX-License-Identifier: unlicensed
 pragma solidity 0.8.14;
 
-import "./Admin.sol";
+import "./extension/Admin.sol";
 
 contract BridgeToken is Admin {
 
